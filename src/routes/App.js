@@ -9,7 +9,7 @@ const App = () => (
   <BrowserRouter>
     <Layout>
       <Switch>
-        <Route exact path='/' component={Home} />
+        <Route exact path='/covid19-colombia/dist/' component={Home} />
         <Route component={NotFound} />
       </Switch>
     </Layout>
